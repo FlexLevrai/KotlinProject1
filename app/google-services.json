@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "158026306124",
+    "project_id": "shoescollection-862da",
+    "storage_bucket": "shoescollection-862da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158026306124:android:0b8fea1470b140e9a2dae9",
+        "android_client_info": {
+          "package_name": "tg.flexlevrai.shoescollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158026306124-vmh0lusik85fsj6hccip3g3snap840ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0t9s9h_T3iOodCRJmjhIRdpk60a4mCAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158026306124-vmh0lusik85fsj6hccip3g3snap840ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<resources>
+    <!-- Nom de l`application -->
+    <string name="app_name">Shoes Box</string>
+
+    <!-- Page d`accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_lastshoes">Dernière Shoes</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_title">Ma collection</string>
+
+    <!-- Page Addition -->
+    <string name="addshoes_page_title">Ajout d\'une chaussure</string>
+    <string name="addshoes_page_btnupload">Charger Image</string>
+    <string name="addshoes_page_name_input">@string/item_shoes_name</string>
+    <string name="addshoes_page_description_input">@string/item_shoes_description</string>
+
+    <string-array name="addshoes_page_size_spinner_input">
+       <item>Taille 38-40</item>
+        <item>Taille 41-43</item>
+        <item>Taille 44-45</item>
+    </string-array>
+
+    <string-array name="addshoes_page_color_spinner_input">
+        <item>Couleur : unique</item>
+        <item>Couleur : varié</item>
+        <item>Couleur : personalisé</item>
+    </string-array>
+
+    <string name="addshoes_page_btnconfirm">Confirmer</string>
+
+    <!-- Fenetre Pop Up de details -->
+    <string name="popup_shoes_name">Shoes Name</string>
+    <string name="popup_shoes_description_title">Description</string>
+    <string name="popup_shoes_description_subtitle">Petite description</string>
+    <string name="popup_shoes_size_title">Taille</string>
+    <string name="popup_shoes_size_subtitle">44 - 45 </string>
+    <string name="popup_shoes_color_title">Couleur</string>
+    <string name="popup_shoes_color_subtitle">Unique </string>
+
+
+    <!-- Shoes Customise -->
+    <string name="item_shoes_name">Name of Shoes</string>
+    <string name="item_shoes_description">Description of Shoes</string>
+
+</resources>

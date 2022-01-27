@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/uploadbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addshoes_page_btnupload"
+            android:background="@color/green"
+            style="@style/title_DefaultTextStyle"
+            android:textColor="@color/white"
+            android:padding="@dimen/default_margin"/>
+        <ImageView
+            android:id="@+id/previewimage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/i2"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColorHint="@color/Grey"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/addshoes_page_name_input"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/default_margin"/>
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColorHint="@color/Grey"
+        android:hint="@string/addshoes_page_description_input"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/default_margin"/>
+
+    <Spinner
+        android:id="@+id/color_spinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_height="80dp"
+        android:entries="@array/addshoes_page_color_spinner_input"
+        android:paddingLeft="@dimen/default_margin"/>
+
+    <Spinner
+        android:id="@+id/size_spinner"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_height="80dp"
+        android:entries="@array/addshoes_page_size_spinner_input"
+        android:paddingLeft="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_height="80dp"
+        android:background="@color/grisfonce"
+        android:text="@string/addshoes_page_btnconfirm"
+        android:textSize="24dp"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
